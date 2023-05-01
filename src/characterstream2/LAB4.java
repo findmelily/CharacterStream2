@@ -15,6 +15,11 @@ public class LAB4 {
             System.out.print("Enter your name: ");
             String name  = input.readLine();
             System.out.println("Hello " + name);
+            System.out.print("Enter your weight: ");
+            String w  = input.readLine();
+            System.out.print("Enter your height: ");
+            String h  = input.readLine();
+            System.out.println(Double.parseDouble(w)*Double.parseDouble(h));
         } catch (IOException ex) {
             Logger.getLogger(LAB4.class.getName()).log(Level.SEVERE, null, ex);
         }
